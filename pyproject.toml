@@ -1,0 +1,33 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "krpc-mcp"
+version = "0.1.0"
+description = "MCP server that gives AI models access to the kRPC Python documentation"
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "Ljove02" }]
+keywords = ["mcp", "krpc", "ksp", "kerbal", "documentation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Software Development :: Documentation",
+]
+dependencies = [
+    "mcp>=1.0.0",
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/Ljove02/krpc-mcp"
+Repository = "https://github.com/Ljove02/krpc-mcp"
+Issues = "https://github.com/Ljove02/krpc-mcp/issues"
+
+[project.scripts]
+krpc-mcp = "krpc_mcp.server:main"
