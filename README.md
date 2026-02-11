@@ -1,3 +1,4 @@
+[![MCP Badge](https://lobehub.com/badge/mcp/ljove02-krpc-mcp)](https://lobehub.com/mcp/ljove02-krpc-mcp)
 # krpc-mcp
 
 An MCP server that gives AI models access to the full [kRPC](https://krpc.github.io/krpc/) Python documentation.
